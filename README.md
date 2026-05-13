@@ -5,17 +5,16 @@
 
 I treat Revenue Operations (RevOps) as an operating model—more than a team—built to make revenue execution **predictable, measurable, and improvable** across the full customer lifecycle. The most credible research definitions converge on four themes: **cross-functional alignment**, **shared data and process standards**, **technology + automation**, and **governance that sustains change**. 
 
-This README-style write-up is intentionally **size- and industry-agnostic** . Many published RevOps benchmarks come from **mid-to-large organizations** (e.g., a 927-respondent Forrester Consulting survey spanning 500+ employee firms, primarily US/Europe/APAC), so calibrate expectations and sequencing for smaller or earlier-stage teams.
+**size- and industry-agnostic** . Many published RevOps benchmarks come from **mid-to-large organizations** (e.g., a 927-respondent Forrester Consulting survey spanning 500+ employee firms, primarily US/Europe/APAC), so calibrate expectations and sequencing for smaller or earlier-stage teams.
 
-If you want one mental model: **RevOps is the system that turns the revenue “machine” from a set of siloed departments into a measurable, governed workflow—from first touch to expansion—so leaders can diagnose bottlenecks, automate repeatable work, and allocate investment with confidence**. 
+ **RevOps is the system that turns the revenue “machine” from a set of siloed departments into a measurable, governed workflow—from first touch to expansion—so leaders can diagnose bottlenecks, automate repeatable work, and allocate investment with confidence**. 
 
 ## Definitions and core objectives
 
 **Authoritative definitions (what RevOps is):**
 
-- entity["company","Gartner","research advisory firm"] defines revenue operations as the **convergence of marketing, sales, and customer service**. citeturn0search0  
-- entity["company","Forrester","research and advisory firm"] defines RevOps as a **highly configured, iterative commercial execution strategy** designed to maximize customer value and company performance, unifying and optimizing **data, processes, technology, and talent** across the lifecycle. citeturn18search0
-- entity["company","Forrester Consulting","consulting arm of forrester"] (in a large survey-based maturity study) defines revenue operations as the **strategic and organizational alignment** of resources, people, processes, and technologies that convert prospects to customers and maximize lifetime value. citeturn3view0  
+- Gartener defines revenue operations as the **convergence of marketing, sales, and customer service**. citeturn0search0  
+
 
 
 **Core objectives (what RevOps exists to accomplish):**
@@ -23,8 +22,8 @@ If you want one mental model: **RevOps is the system that turns the revenue “m
 RevOps is typically justified on four outcome classes that show up consistently across research:
 
 - **Efficiency:** reduce duplicated effort, manual work, and process friction across handoffs. citeturn18search1  
-- **Predictability:** improve the reliability of pipeline, forecasting, conversion, and renewal outcomes through defined milestones and monitoring. citeturn18search1turn5search37  
-- **Data integrity and a single source of truth:** standardize lifecycle definitions and consolidate customer/revenue data into trusted systems with governance. citeturn7view0turn18search1  
+- **Predictability:** improve the reliability of pipeline, forecasting, conversion, and renewal outcomes through defined milestones and monitoring.  
+- **Data integrity and a single source of truth:** standardize lifecycle definitions and consolidate customer/revenue data into trusted systems with governance.   
 - **Lifecycle alignment (acquisition → retention → growth):** ensure the company can coordinate across routes-to-market, and avoid leaving “billing/finance” out of the customer experience. 
 
 **Why the timing matters (adoption signal):** Gartner’s public guidance has repeatedly pointed to rapid adoption among high-growth companies (e.g., “75% of the highest growth companies” deploying a RevOps model by 2025). 
@@ -35,10 +34,10 @@ RevOps is typically justified on four outcome classes that show up consistently 
 
 I organize RevOps in a way that maps cleanly to implementation and governance:
 
-- **People:** ownership, decision rights, staffing, and enablement. citeturn18search0turn18search1  
-- **Process:** standardized lifecycle definitions and handoffs (lead → opportunity → contract/subscription → renewal/expansion). citeturn18search1turn3view0  
-- **Data:** a shared measurement layer (definitions, data dictionary, data contracts) and quality controls. citeturn7view0turn18search1  
-- **Technology:** an integrated stack that supports the lifecycle and minimizes revenue leakage. citeturn18search1turn19view0  
+- **People:** ownership, decision rights, staffing, and enablement. 
+- **Process:** standardized lifecycle definitions and handoffs (lead → opportunity → contract/subscription → renewal/expansion). 
+- **Data:** a shared measurement layer (definitions, data dictionary, data contracts) and quality controls. 
+- **Technology:** an integrated stack that supports the lifecycle and minimizes revenue leakage. 
 
 This is consistent with research characterizations of RevOps as an execution strategy that unifies data/process/tech/talent, not merely an org chart change. 
 
@@ -56,7 +55,6 @@ Below is the comparison table I recommend keeping in your README for quick align
 
 The “pod” and “hybrid” ideas are compatible with Forrester’s guidance that teams may not fully merge, but must align operating principles across marketing, sales, customer success/support, and finance. 
 
-image_group{"layout":"carousel","aspect_ratio":"16:9","query":["revenue operations revops framework diagram","revops operating model people process data technology diagram","lead to cash process diagram revenue operations","customer lifecycle funnel marketing sales customer success"],"num_per_query":1}
 
 ### Scope and functions included
 
@@ -79,7 +77,7 @@ RevOps scope varies, but the most defensible boundary is: **anything required to
 - Revenue reporting alignment with GTM definitions; revenue leakage controls; ARR/MRR governance for subscription businesses.
 - Billing operations and finance involvement are frequently emphasized as part of a complete RevOps journey (not an afterthought). citeturn19view0turn4search11  
 
-A tight rule I use: if the process affects **conversion, retention, or customer lifetime value**, it’s in scope—even if execution sits in another function. citeturn3view0turn19view0
+A tight rule I use: if the process affects **conversion, retention, or customer lifetime value**, it’s in scope—even if execution sits in another function. 
 
 ## Metrics and data foundations
 
@@ -107,10 +105,10 @@ Below are the KPIs you explicitly requested, with definitions that are precise e
 - CLV is generally the total value (or profit) expected from a customer over the full relationship; you must document whether your formula is revenue-based or margin-based. citeturn4search9  
 
 **Churn**
-- Customer churn rate is the percentage of customers who discontinue within a period; revenue churn tracks lost revenue from cancellations/downgrades. citeturn4search6turn4search38  
+- Customer churn rate is the percentage of customers who discontinue within a period; revenue churn tracks lost revenue from cancellations/downgrades. 
 
 **Sales cycle length**
-- A standard definition is average time-to-close across closed deals; Salesforce describes it as total days to close divided by closed deals (ensure you define the start/end timestamps). citeturn5search2  
+- A standard definition is average time-to-close across closed deals; Salesforce describes it as total days to close divided by closed deals (ensure you define the 
 
 **Pipeline coverage**
 - Pipeline coverage compares pipeline value to a target for the period (often expressed as “X times quota/target”). citeturn5search8  
@@ -122,7 +120,7 @@ Below are the KPIs you explicitly requested, with definitions that are precise e
 - ARR and MRR are recurring revenue summaries at annual vs monthly horizons; Stripe provides a clear distinction and usage guidance. citeturn4search11  
 
 **Expansion revenue**
-- Expansion is revenue gained from upsell/cross-sell/upgrade among existing customers and is a core component of net retention calculations. citeturn5search11turn5search15  
+- Expansion is revenue gained from upsell/cross-sell/upgrade among existing customers and is a core component of net retention calculations. 
 
 ### Data model essentials
 
@@ -152,23 +150,23 @@ A related market concept is Forrester’s “revenue orchestration platforms,”
 
 | Layer | Vendor examples | Official links |
 |---|---|---|
-| CRM | entity["company","Salesforce","crm vendor"]; entity["company","HubSpot","crm and marketing platform"]; entity["company","Microsoft","enterprise software company"] (Dynamics 365 Sales) | `https://www.salesforce.com/` · `https://www.hubspot.com/` · `https://www.microsoft.com/en-us/dynamics-365/products/sales` |
-| RevOps / revenue orchestration | entity["company","Clari","revenue orchestration platform"]; entity["company","LeanData","revenue operations and routing"] | `https://www.clari.com/` · `https://www.leandata.com/` |
-| GTM orchestration (sales engagement / workflows) | entity["company","Outreach","sales execution platform"]; entity["company","Salesloft","revenue orchestration platform"] | `https://outreach.io/` · `https://www.salesloft.com/` |
+| CRM | ["company","HubSpot","crm and marketing platform" (Dynamics 365 Sales) | `https://www.salesforce.com/` · `https://www.hubspot.com/` · `https://www.microsoft.com/en-us/dynamics-365/products/sales` |
+| RevOps / revenue orchestration | Clari;  | `https://www.clari.com/` · `https://www.leandata.com/` |
+| GTM orchestration (sales engagement / workflows) | "Salesloft","revenue orchestration platform"] | `https://outreach.io/` · `https://www.salesloft.com/` |
 | Revenue intelligence | entity["company","Gong","revenue intelligence platform"]; entity["company","People.ai","ai revenue platform"] | `https://www.gong.io/` · `https://www.people.ai/` |
 | Analytics / BI | entity["company","Tableau","business intelligence software"]; entity["company","Google Cloud","cloud platform provider"] (Looker / Looker Studio); (Power BI via Microsoft) | `https://www.tableau.com/` · `https://cloud.google.com/looker` · `https://www.microsoft.com/en-us/power-platform/products/power-bi` |
-| Data warehouse / lakehouse | entity["company","Snowflake","cloud data platform"] | `https://www.snowflake.com/en/` |
-| Integration / automation (iPaaS) | entity["company","Workato","integration and automation platform"] | `https://www.workato.com/` |
+| Data warehouse / lakehouse |  | `https://www.snowflake.com/en/` |
+| Integration / automation (iPaaS) |  | `https://www.workato.com/` |
 | CPQ | (Salesforce CPQ); entity["company","DealHub","cpq and quote-to-revenue"] | `https://www.salesforce.com/sales/cpq/` · `https://dealhub.io/` |
-| Billing / subscription management | entity["company","Stripe","payments and billing platform"] (Stripe Billing); entity["company","Chargebee","subscription billing platform"] | `https://stripe.com/billing` · `https://www.chargebee.com/billing/` |
+| Billing / subscription management |(Stripe Billing); | `https://stripe.com/billing` · `https://www.chargebee.com/billing/` |
 
-Example vendor pages for the above categories are available via their official sites. citeturn9search0turn9search5turn9search2turn9search3turn10search2turn10search3turn12search0turn12search5turn12search2turn12search3turn13search3turn11search21turn11search0turn11search1turn11search2turn13search0turn13search1  
+Example vendor pages for the above categories are available via their official sites. 
 
 ## Implementation roadmap and playbook
 
 ### A staged roadmap I recommend
 
-A recurring finding in the maturity-guidance research is that there is “no one right” org design; the starting point can be a process audit, cross-ops partnership, or integrating ops teams incrementally. citeturn20view0turn18search1  
+A recurring finding in the maturity-guidance research is that there is “no one right” org design; the starting point can be a process audit, cross-ops partnership, or integrating ops teams incrementally.   
 
 I implement RevOps in seven workstreams that run in parallel but are sequenced:
 
@@ -200,7 +198,7 @@ I implement RevOps in seven workstreams that run in parallel but are sequenced:
    - Publish “what changed, why, and how to use it.”
    - Train frontline teams; measure adoption; iterate.
 
-This sequencing aligns to research emphasis that RevOps is a cultural/operating shift rather than an org-label change, and that strong collaboration + a single trusted customer data source are required to consistently realize benefits. citeturn22view0turn7view0turn18search0  
+This sequencing aligns to research emphasis that RevOps is a cultural/operating shift rather than an org-label change, and that strong collaboration + a single trusted customer data source are required to consistently realize benefits. 
 
 ### Sample 12-month timeline (Mermaid Gantt)
 
@@ -259,236 +257,45 @@ KR5: Increase net revenue retention by Y points through improved renewal risk vi
 KR6: Establish weekly operating review cadence with published dashboards and documented action items.
 ```
 
-The specific targets (X/Y/thresholds) must be set relative to your baseline and motion; the key is that RevOps success should be measurable in both **system mechanics** (data/process) and **outcomes** (growth, retention, predictability). citeturn18search1turn5search37turn5search2turn5search15  
+The specific targets (X/Y/thresholds) must be set relative to your baseline and motion; the key is that RevOps success should be measurable in both **system mechanics** (data/process) and **outcomes** (growth, retention, predictability).
 
 ## Evidence and ROI
 
 ### Empirical evidence from reputable industry research
 
 **Revenue impact and maturity effects**
-- In Forrester Consulting’s maturity study, higher maturity cohorts report higher observed revenue growth (including higher five-year average growth) versus lower maturity cohorts. citeturn7view0  
-- The same study reports that organizations with RevOps functions experienced a larger revenue growth uplift than pre-adopters expected, with reported pre/post comparisons indicating an uplift on the order of **a few percentage points** in the sample. citeturn7view1turn7view2  
+- In Forrester Consulting’s maturity study, higher maturity cohorts report higher observed revenue growth (including higher five-year average growth) versus lower maturity cohorts.
+- The same study reports that organizations with RevOps functions experienced a larger revenue growth uplift than pre-adopters expected, with reported pre/post comparisons indicating an uplift on the order of **a few percentage points** in the sample. 
 
 **Operational benefits**
-- Respondents cite benefits like more robust planning, improved productivity, and increased win rates; highly mature teams are more likely to report these benefits, and the report emphasizes that RevOps is a cultural shift—not “a team in name only.” citeturn22view0turn3view1  
+- Respondents cite benefits like more robust planning, improved productivity, and increased win rates; highly mature teams are more likely to report these benefits, and the report emphasizes that RevOps is a cultural shift—not “a team in name only.”  
 
 **Adoption and momentum signals**
-- Gartner projected broad adoption among high-growth companies (widely cited as 75% by 2025). citeturn1search0  
-- LeanData’s large survey program reported rapid increases in organizations building or establishing RevOps groups year-over-year (e.g., increases in organizations with dedicated RevOps groups and those actively building one). citeturn8search4  
+- Gartner projected broad adoption among high-growth companies (widely cited as 75% by 2025).  
+- LeanData’s large survey program reported rapid increases in organizations building or establishing RevOps groups year-over-year (e.g., increases in organizations with dedicated RevOps groups and those actively building one). 
 
 ### Typical ROI ranges and how I frame them
 
 Because “RevOps ROI” blends **revenue lift** (growth, retention, expansion) with **cost and productivity** (fewer manual steps, fewer errors, less leakage), the most defensible way to state ROI is to separate:
 
-- **Operating model impact (RevOps as a function):** Forrester Consulting’s survey shows measurable revenue-growth uplift after adopting RevOps in its sample, and maturity cohorts show materially different growth levels—suggesting that benefits scale with deeper alignment (not merely creating the team). citeturn7view2turn22view0turn7view0  
-- **Technology ROI (RevOps platforms/tools):** Forrester TEI-style studies often report large ROI figures for specific platforms. For example, Forrester TEI material published for Clari describes substantial ROI and payback claims for the platform (tool ROI, not “RevOps org” ROI). citeturn15search8turn9search3  
+- **Operating model impact (RevOps as a function):** Forrester Consulting’s survey shows measurable revenue-growth uplift after adopting RevOps in its sample, and maturity cohorts show materially different growth levels—suggesting that benefits scale with deeper alignment (not merely creating the team). 
+- **Technology ROI (RevOps platforms/tools):** Forrester TEI-style studies often report large ROI figures for specific platforms. For example, Forrester TEI material published for Clari describes substantial ROI and payback claims for the platform (tool ROI, not “RevOps org” ROI).  
 
 My recommendation for a README is to avoid overpromising (“RevOps delivers X% always”) and instead document:
 - the **baseline metrics**,  
 - the **mechanisms** you will change (definitions, routing, forecasting, renewals), and  
 - the **expected directionality** (e.g., fewer SLA breaches, better data completeness, tighter forecast variance, improved retention signals).  
 
-That keeps the repository rigorous and auditable, and aligns with research caution that org design alone is insufficient without new capabilities, processes, and governance. citeturn22view0turn20view0  
+That keeps the repository rigorous and auditable, and aligns with research caution that org design alone is insufficient without new capabilities, processes, and governance. 
 
 ### A note on analytics and retention evidence
 
 Even if you don’t deploy sophisticated ML, it’s worth noting that peer-reviewed work continues to show high predictive performance is feasible in churn-risk modeling contexts (e.g., CRM-integrated churn prediction frameworks achieving high classification metrics on standard datasets). This supports why CS Ops analytics and data foundations matter in a RevOps program. citeturn8search26  
 
-## Open-source repository blueprint
 
-This section is designed so you can lift it directly into a repo.
-
-### Recommended README structure
-
-GitHub users expect a README to answer: **What is this, who is it for, how do I use it, and how do I contribute?** I recommend:
-
-```text
-# RevOps Handbook (Open Source)
-
-## Why this repo exists
-## What RevOps means in this repo (definitions + scope boundary)
-
-## Operating model
-- Org model options (centralized, pod, hybrid)
-- Decision rights (RACI)
-- Operating cadence
-
-## Metrics and data
-- North-star metrics
-- Metric definitions (data dictionary)
-- Dashboards and reporting conventions
-
-## Processes
-- Lead-to-opportunity
-- Opportunity-to-quote
-- Quote-to-cash
-- Renewal and expansion
-
-## Tooling reference architecture
-- Stack patterns
-- Integration principles
-- Security and access
-
-## Implementation playbook
-- Phased roadmap
-- Templates
-- Sample OKRs
-
-## Contributing
-## License
 ```
 
-### Suggested repo layout
 
-```text
-.
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-├── docs/
-│   ├── glossary.md
-│   ├── lifecycle-definitions.md
-│   ├── metrics/
-│   │   ├── metric-catalog.md
-│   │   └── metric-definition-template.md
-│   ├── data/
-│   │   ├── data-dictionary.md
-│   │   └── event-schema.md
-│   ├── governance/
-│   │   ├── decision-rights-raci.md
-│   │   └── change-control.md
-│   └── processes/
-│       ├── lead-to-opportunity.md
-│       ├── opportunity-management.md
-│       └── renewal-expansion.md
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    │   ├── bug_report.yml
-    │   └── feature_request.yml
-    └── pull_request_template.md
-```
-
-### Templates you can copy-paste
-
-**Metric definition template**
-
-```markdown
-# Metric: <name>
-
-## Owner
-- DRI:
-- Stakeholders:
-
-## Business question
-- What decision does this metric support?
-
-## Definition
-- Numerator:
-- Denominator:
-- Inclusion criteria:
-- Exclusion criteria:
-
-## Grain
-- Account / opportunity / customer / subscription / day / month:
-
-## Calculation rules
-- Time window:
-- Currency normalization:
-- Treatment of refunds, credits, downgrades:
-
-## Data sources
-- System(s):
-- Table(s)/object(s):
-- Required fields:
-
-## Data quality checks
-- Completeness threshold:
-- Freshness SLA:
-- Known caveats:
-
-## Visualization standard
-- Preferred chart type:
-- Segments/cuts:
-- Alert thresholds:
-```
-
-**Issue templates and PR templates**
-
-GitHub supports issue templates (including YAML issue forms) under `.github/ISSUE_TEMPLATE/` and pull request templates stored in `.github/pull_request_template.md` (or other documented paths). citeturn14search0turn14search1turn14search12  
-
-`./.github/ISSUE_TEMPLATE/feature_request.yml`
-```yaml
-name: Feature request
-description: Propose a new RevOps template, metric, or process artifact
-title: "[Feature]: "
-labels: ["enhancement"]
-body:
-  - type: textarea
-    id: problem
-    attributes:
-      label: Problem statement
-      description: What problem are you solving for RevOps practitioners?
-    validations:
-      required: true
-  - type: textarea
-    id: proposal
-    attributes:
-      label: Proposal
-      description: Describe the artifact you want to add or change.
-    validations:
-      required: true
-  - type: textarea
-    id: sources
-    attributes:
-      label: Sources
-      description: Link primary/official sources or reputable reports supporting the change.
-    validations:
-      required: false
-```
-
-`./.github/pull_request_template.md`
-```markdown
-## Summary
-What does this PR change?
-
-## Why
-What problem does it solve? Link issues.
-
-## What changed
-- [ ] Docs
-- [ ] Templates
-- [ ] Metrics definitions
-- [ ] Process guidance
-
-## Evidence
-Links to sources, screenshots, or examples.
-
-## Checklist
-- [ ] I followed the repo style and structure
-- [ ] I added/updated citations where relevant
-- [ ] I updated docs/index or README if needed
-```
-
-### Licensing suggestions
-
-To be unambiguously open source, you should include a license file; GitHub documentation explicitly notes that a repository needs a license so others can freely use, modify, and distribute it. citeturn18search3turn18search7  
-
-I typically recommend choosing from a small set of well-understood licenses and documenting the rationale:
-
-- **Permissive (common default):** MIT or Apache-2.0  
-- **Stronger reciprocity (copyleft):** GPL-3.0 (when you want derivatives to remain open)
-
-For a quick, credible reference set:
-- entity["organization","Open Source Initiative","osi licenses authority"] maintains the OSI-approved license list. citeturn14search11  
-- entity["organization","Apache Software Foundation","apache open source foundation"] publishes the canonical Apache-2.0 license text and SPDX identifier. citeturn14search15  
-- entity["organization","Choose a License","github open source license guide"] provides practical, non-judgmental license selection guidance. citeturn14search6turn14search2  
-
-### Contribution guidance (high signal, low friction)
-
-I’ve found open-source RevOps repos stay healthy when contributions are anchored to:
-- **Artifacts, not opinions:** every new metric/process template should include scope, owner, and a “why” section.
 - **Traceable sources:** prefer primary sources and reputable research; link them in PRs/issues.
 - **Versioning:** treat lifecycle definitions and metric dictionaries as versioned contracts; document breaking changes in a changelog.
 
